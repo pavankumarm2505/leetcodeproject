@@ -4,4 +4,5 @@ class Solution:
         for s in strs:
             sortedS = ''.join(sorted(s))
             res[sortedS].append(s)
-        return list(res.values())
+        return list(res.values()) 
+    #not sure of the number
